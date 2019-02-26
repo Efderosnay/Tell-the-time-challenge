@@ -1,0 +1,386 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    height: 100%;
+    width: 100%;
+}
+.background {
+    position: relative;
+}
+.background{
+    margin: auto;
+    height:50%;
+    background:white; 
+    width: 100%;  
+    padding: 400px 100px;
+}
+.monsterBody{
+    height: 450px;
+    width: 500px;
+    background-color: rgb(9, 64, 159);
+    position: absolute;
+    top: 40%;
+    left: 35%;
+}
+.monsterFace{
+    height: 300px;
+    width: 500px;
+    background-color: rgb(9, 64, 159);
+    position: absolute;
+    top: 20%;
+    left: 35%;
+    border-radius: 50%;
+}
+.monsterEye1{
+    width: 250px;
+    height:250px;
+    border-left: 20px solid black;
+    border-right: 20px solid black;
+    border-bottom: 20px solid black;
+    border-top: 20px solid black;
+    border-radius: 30%;
+    position: absolute;
+    top: 25%;
+    left: 32%;
+    background: white;
+}
+
+.monsterEye2{
+    width: 250px;
+    height:250px;
+    border-left: 20px solid black;
+    border-right: 20px solid black;
+    border-bottom: 20px solid black;
+    border-top: 20px solid black;
+    border-radius: 30%;
+    position: absolute;
+    top: 25%;
+    left: 49%;
+    background: white;
+}
+.monsterInsideEye1{
+    height: 100px;
+    width: 100px;
+    background-color:black;
+    border-radius: 50%;
+    position: absolute;
+    top: 29%;
+    left: 35%;
+    animation: roll1 2s infinite;
+}
+
+.monsterInsideEye2{
+    height: 100px;
+    width: 100px;
+    background-color:black;
+    border-radius: 50%;
+    position: absolute;
+    top: 29%;
+    left: 52%;
+    animation: roll2 2s infinite;
+}
+
+.monsterMouth{
+    height: 75px;
+    width: 200px;
+    background-color: black;
+    position: absolute;
+    top: 62%;
+    left: 40%;
+}
+.monsterMouth1{
+    height: 75px;
+    width: 75px;
+    background-color:black;
+    border-radius: 50%;
+    position: absolute;
+    top: 62%;
+    left: 51%;
+} 
+.monsterMouth2{
+    height: 75px;
+    width: 75px;
+    background-color:black;
+    border-radius: 50%;
+    position: absolute;
+    top: 62%;
+    left: 37%;
+} 
+.monsterTongue{
+    width: 175px;
+	height: 150px;
+    background: red;
+    position: absolute;
+    top: 66%;
+    left: 43%;  
+    border-radius: 29%; 
+}
+.monsterTongue1{
+    height: 175px;
+    width: 175px;
+    background-color:red;
+    border-radius: 50%;
+    position: absolute;
+    top: 66%;
+    left: 39%;
+}
+.monsterTongue2{
+    height: 200px;
+    width: 200px;
+    background-color:red;
+    border-radius: 50%;
+    position: absolute;
+    top: 66%;
+    left: 39.1%;
+}
+.monsterTongue3{
+    height: 200px;
+    width: 200px;
+    background-color:red;
+    border-radius: 50%;
+    position: absolute;
+    top: 66.2%;
+    left: 41.2%;
+}
+.monsterTongue4{
+    width: 17px;
+	height: 60px;
+    background: black;
+    position: absolute;
+    top: 66%;
+    left: 47%;
+}
+
+.monsterTeeth1{
+    width: 19px;
+	height: 15px;
+    background: white;
+    position: absolute;
+    top: 62%;
+    left: 44%;
+}
+.monsterTeeth2{
+    width: 19px;
+	height: 15px;
+    background: white;
+    position: absolute;
+    top: 62%;
+    left: 46%;
+}
+.monsterhair{
+    width: 0;
+	height: 0;
+	border-left: 25px solid transparent;
+	border-right: 25px solid transparent;
+    border-bottom: 50px solid rgb(28, 194, 28);
+    position: absolute;
+    top:13.5%;
+    left: 50%;
+}
+.monsterhair1{
+    width: 0;
+	height: 0;
+	border-left: 25px solid transparent;
+	border-right: 25px solid transparent;
+    border-bottom: 50px solid rgb(28, 194, 28);
+    position: absolute;
+    top:14.5%;
+    left: 45%;
+    transform: rotateZ(-10deg);
+}
+.monsterhair2{
+    width: 0;
+	height: 0;
+	border-left: 25px solid transparent;
+	border-right: 25px solid transparent;
+    border-bottom: 50px solid rgb(28, 194, 28);
+    position: absolute;
+    top:17.3%;
+    left: 40%;
+    transform: rotateZ(-23deg);
+}
+
+.monsterhair3{
+    width: 0;
+	height: 0;
+	border-left: 25px solid transparent;
+	border-right: 25px solid transparent;
+    border-bottom: 50px solid rgb(28, 194, 28);
+    position: absolute;
+    top:14%;
+    left: 55%;
+    transform: rotateZ(9deg);
+}
+
+.monsterhair4{
+    width: 0;
+	height: 0;
+	border-left: 25px solid transparent;
+	border-right: 25px solid transparent;
+    border-bottom: 50px solid rgb(28, 194, 28);
+    position: absolute;
+    top:16.4%;
+    left: 60%;
+    transform: rotateZ(21deg);
+}
+.monsterhair5{
+    width: 0;
+	height: 0;
+	border-left: 25px solid transparent;
+	border-right: 25px solid transparent;
+    border-bottom: 50px solid rgb(28, 194, 28);
+    position: absolute;
+    top:21.4%;
+    left: 65%;
+    transform: rotateZ(36deg);
+}
+
+
+.clockStand{
+    width: 200px;
+	height: 15px;
+    background: black;
+    position: absolute;
+    top: 88%;
+    right:16.5%;
+}
+.clockStand1{
+    width: 15px;
+	height: 375px;
+    background: black;
+    position: absolute;
+    top: 39.6%;
+    right:16%;
+}
+.clock{
+    width: 225px;
+    height:225px;
+    border-left: 20px solid black;
+    border-right: 20px solid black;
+    border-bottom: 20px solid black;
+    border-top: 20px solid black;
+    border-radius: 30%;
+    position: absolute;
+    top: 10%;
+    right: 9%;
+}
+
+.clock-face{
+    height: 190px;
+    width: 190px;
+    background-color: transparent;
+    border: 5px solid blue;
+    border-radius: 50%;
+    position: absolute;
+    top: -1%;
+    right: -1%; 
+}
+.clockmiddlecircle{
+    height: 15px;
+    width: 15px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    top: 45%;
+    right: 45%;  
+}
+.hand{
+    width: 50%;
+    height:6px;
+    top:49%;
+    background: black;
+    position: absolute;
+    transform-origin: 100%;
+    transform: rotate(90deg);
+    transition: all 0.05s;
+    transition-timing-function: cubic-bezier(0.1, 2.7, 0.58,1);
+}
+.hour-hand{
+    width: 40%;
+    height: 6px;  
+    top:49%;
+    right:50%;
+    background: black;
+    position: absolute;
+    transform-origin: 100%;
+    transform: rotate(90deg);
+    transition: all 0.05s;
+    transition-timing-function: cubic-bezier(0.1, 2.7, 0.58,1);
+}
+.twelve{
+    width: 5px;
+	height: 10px;
+    background: black;
+    position: absolute;
+    top: -1%;
+    right:48%; 
+}
+.fifteen{
+    width: 10px;
+	height: 5px;
+    background: black;
+    position: absolute;
+    top: 50%;
+    right:0%; 
+}
+.thirty{
+    width: 5px;
+	height: 10px;
+    background: black;
+    position: absolute;
+    top: 95%;
+    right:48%; 
+}
+.fourtyFive{
+    width: 10px;
+	height: 5px;
+    background: black;
+    position: absolute;
+    top: 50%;
+    right:95%; 
+}
+
+@keyframes roll1 {
+    from { 
+        left: 35%;
+        top: 29%;
+    }
+        50% { left: 40%;
+            top: 29%;
+        }
+        80% { left: 40%;
+              top:40%;
+        }
+        90% {
+              left: 35%;
+              top: 40%;
+        }
+    to { 
+        left:35%;
+        top:29%;
+    }    
+}
+
+@keyframes roll2 {
+    from { 
+        left: 52%;
+        top: 29%;
+    }
+        50% { left: 60%;
+            top: 29%;
+        }
+        80% { left: 60%;
+              top:40%;
+        }
+        90% {
+              left: 52%;
+              top: 40%;
+        }
+    to { 
+        left:52%;
+        top:29%;
+    }    
+}
